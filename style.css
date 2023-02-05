@@ -1,0 +1,261 @@
+#main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: none;
+  width: 100%;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+.inner-container {
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 80%;
+  height: 60%;
+}
+
+.upper-container {
+  border: none;
+  border-radius: 5px 5px 0px 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 60%;
+  background-color: #b4b3b375;
+}
+
+.profile-dp-container {
+  border: none;
+  width: 40%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dp-container {
+  border: none;
+  border-radius: 150px;
+  width: 57%;
+  height: 83%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 206px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #e90b35b5;
+}
+
+.dp-container:hover {
+  box-shadow: 0px 0px 30px 0px rgb(71 69 70 / 67%);
+}
+
+.info-intro-container {
+  border: none;
+  width: 60%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-evenly;
+  border: none;
+  width: 97.5%;
+  height: 20%;
+  margin: 1%;
+}
+
+.social-link-container:hover {
+  border: none;
+  box-shadow: 0px 0px 30px 0px rgba(222, 100, 161, 0.67);
+}
+
+.social-link-container {
+  display: flex;
+  border: 1px solid;
+  border-radius: 26px;
+  width: 30%;
+  height: 79%;
+}
+
+.social-icon-container {
+  border: none;
+  border-radius: 19px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.social-icon {
+  width: 90%;
+  height: 83%;
+  border-radius: 25px;
+}
+
+.link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 80%;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  overflow: hidden;
+}
+
+.profile-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 40%;
+  margin-left: 1%;
+  height: 100%;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.button-container {
+  border: none;
+  width: 30%;
+  margin-left: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact-us-btn {
+  width: 95%;
+  height: 55%;
+  border-radius: 3px;
+  border: 1px solid;
+  font-size: 15px;
+  font-family: helvetica;
+}
+
+#setting {
+  width: 95%;
+  height: 55%;
+  border-radius: 3px;
+  border: 1px solid;
+  font-size: 15px;
+  font-family: helvetica;
+}
+
+.intro-container {
+  border: none;
+  width: 97.5%;
+  height: 80%;
+  margin: 1%;
+}
+
+.text-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: none;
+  width: 100%;
+  height: 15%;
+  margin-bottom: 1%;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.lower-container {
+  border-top: 1px solid;
+  border-radius: 0px 0px 0px 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 40%;
+  background-color: #b4b3b375;
+}
+
+.skill-container {
+  border-bottom: 1px solid;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.skill-items {
+  position: realtive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 90px;
+  width: 8%;
+  height: 40%;
+  margin: 0.5%;
+  overflow: hidden;
+  z-index: 3;
+}
+
+.skill-items:hover {
+  border: none;
+  box-shadow: 0px 0px 30px 0px rgb(71 69 70 / 67%);
+  background-color: whitesmoke;
+  border-top: 3px solid green;
+  border-bottom: 3px solid yellow;
+  border-left: 3px solid red;
+  border-right: 3px solid skyblue;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.skill-icon {
+  width: 79%;
+  height: 67%;
+}
+
+.project-outer-container {
+  border: none;
+  width: 80%;
+  height: 50%;
+  border-radius: 0px 0px 3px 3px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  overflow: auto;
+  background-color: #b4b3b375;
+}
+
+.project-container {
+  border: 1px solid;
+  width: 30%;
+  height: 84%;
+  margin: 1%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
